@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/item_card_corner_radius">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.maple.dashboardtest.ui.widget.VerticalBarChartView
+            android:id="@+id/bar_chart_social_app"
+            android:layout_width="10dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:alpha="0.8"
+            app:hasLabel="false"
+            app:layout_constraintBottom_toBottomOf="@id/text_view_social_app_time_unit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_view_social_app_name" />
+
+        <ImageView
+            android:id="@+id/image_social_app_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/item_image_margin"
+            android:adjustViewBounds="true"
+            android:alpha="0.1"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_dialog_info"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_social_app_name"
+            style="@style/cardTitleText"
+            app:layout_constraintBottom_toTopOf="@id/text_view_social_app_time_usage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Facebook" />
+
+        <TextView
+            android:id="@+id/text_view_social_app_time_usage"
+            style="@style/cardQuantityText"
+            app:layout_constraintBottom_toTopOf="@id/text_view_social_app_time_unit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_social_app_name"
+            tools:text="10" />
+
+        <TextView
+            android:id="@+id/text_view_social_app_time_unit"
+            style="@style/cardUnitText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_social_app_time_usage"
+            tools:text="minutes" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

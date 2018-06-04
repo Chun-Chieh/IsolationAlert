@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maple.dashboardtest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="27" />
+
+    <!-- permissions for device usage -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- permissions for social apps -->
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+
+    <!-- permissions for locations -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- permission for training session -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.maple.dashboardtest.ui.activity.WelcomeActivity"
+            android:theme="@style/AppTheme.TransparentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- dashboard -->
+        <activity android:name="com.example.maple.dashboardtest.ui.activity.MainActivity" />
+
+        <!-- Statistics -->
+        <activity
+            android:name="com.example.maple.dashboardtest.ui.activity.StatisticsActivity"
+            android:label="@string/text_title_statistics" />
+
+        <!-- Survey -->
+        <activity android:name="com.example.maple.dashboardtest.ui.activity.survey.SurveyMainActivity" />
+        <activity
+            android:name="com.example.maple.dashboardtest.ui.activity.survey.SurveyQuestionActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Conversation recognition training -->
+        <activity
+            android:name="com.example.maple.dashboardtest.ui.activity.TrainingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- debug -->
+        <activity
+            android:name="com.example.maple.dashboardtest.debug.DebugSurveyActivity"
+            android:theme="@style/AppTheme.ActionBarTheme" />
+
+        <!-- Micro EMA Notification -->
+        <service android:name="com.example.maple.dashboardtest.service.NotificationForegroundService" />
+
+        <receiver android:name="com.example.maple.dashboardtest.broadcastreceiver.NotificationButtonListener" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Google map -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCNQu1e3dcdgV5JYlc_g_EXDuNDxh6nsas" />
+
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.maple.dashboardtest.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

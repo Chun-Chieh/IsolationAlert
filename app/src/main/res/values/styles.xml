@@ -1,0 +1,80 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fontFamily">@font/work_sans</item>
+
+        <!--android design:27.1.1 bug-->
+        <!--<item name="coordinatorLayoutStyle">@style/Widget.Design.CoordinatorLayout</item>-->
+    </style>
+
+
+    <style name="AppTheme.TransparentTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+    <style name="AppTheme.ActionBarTheme">
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+
+    <!-- Card in Dashboard-->
+    <style name="cardText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:fontFamily">@font/work_sans</item>
+
+    </style>
+
+    <style name="cardQuantityText" parent="cardText">
+        <item name="fontFamily">@font/work_sans_bold</item>
+        <item name="android:textSize">@dimen/item_quantity_text_size</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="cardTitleText" parent="cardText">
+        <item name="android:textSize">@dimen/item_title_text_size</item>
+    </style>
+
+    <style name="cardUnitText" parent="cardText">
+        <item name="android:textSize">@dimen/item_unit_text_size</item>
+    </style>
+
+    <!-- Training & Survey Main Activity -->
+    <style name="feature">
+        <item name="android:paddingEnd">44dp</item>
+        <item name="android:paddingStart">44dp</item>
+    </style>
+
+    <style name="feature.featureTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/work_sans_bold</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="feature.featureExplanationText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:lineSpacingExtra">@dimen/line_space_explanation</item>
+    </style>
+
+    <!-- bar chart -->
+    <declare-styleable name="CustomChartView">
+        <attr name="hasLabel" format="boolean" />
+    </declare-styleable>
+</resources>

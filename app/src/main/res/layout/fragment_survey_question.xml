@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/question_label"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingEnd="32dp"-->
+        <!--android:paddingStart="32dp"-->
+        <!--android:paddingTop="32dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Question"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/text_view_question_num"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:text="1"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />-->
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:id="@+id/text_view_question_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:lineSpacingExtra="8dp"
+        tools:text="How's your day?" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="32dp">
+    </RadioGroup>
+</LinearLayout>

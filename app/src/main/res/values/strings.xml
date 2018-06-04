@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Isolation Alert</string>
+    <string name="text_title_statistics">Statistics</string>
+    <string name="button_text_welcome_get_started">get started</string>
+
+
+    <!-- menu text in dashboard -->
+    <string name="navigation_drawer_survey">Survey</string>
+    <string name="navigation_drawer_statistics">Statistics</string>
+    <string name="navigation_drawer_recording_training">Training</string>
+    <string name="navigation_drawer_about">About</string>
+    <string name="navigation_drawer_recording_testing">Recording Testing</string>
+    <string name="navigation_drawer_notification">Notification Testing</string>
+    <string name="navigation_drawer_db_survey">DB Survey</string>
+
+    <!-- Text for navigation menu -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="permission_usage_stats">Click to grant the permission of usage access</string>
+    <string name="permission_rationale">This app needs your permission.</string>
+
+    <!-- no data for social app usage -->
+    <string name="text_no_data">No Data for Today!</string>
+
+
+    <!-- Survey Activity -->
+    <string name="text_view_survey_title">It only takes 3 minutes.</string>
+    <string name="text_view_survey_explanation">By answering this 3 minutes survey, you are able to know yourself better in the status of social isolation.</string>
+    <string name="button_text_begin">Begin</string>
+    <string name="button_text_next">Next</string>
+
+    <!-- Recording Activity & Recording Fragment -->
+    <string name="text_view_training_title">It only takes 3 minutes.</string>
+    <string name="text_view_training_explanation">By doing this training, we could recognize if you\'re involved in a conversation. \nPress the button below when you are ready.</string>
+    <string name="button_text_done">Done</string>
+    <string name="text_training">On a dark winter night \n
+        outside Elsinore Castle in Denmark,\n
+        an officer named Bernardo comes to relieve the watchman Francisco. \n
+        In the heavy darkness, \n
+        the men cannot see each other. \n
+        Bernardo hears a footstep near him and cries, \n
+        “Who’s there?” \n
+        After both men ensure that the other is also a watchman,\n
+        they relax. Cold, tired, and apprehensive from his many hours of guarding the castle, \n
+        Francisco thanks Bernardo and prepares to go home and go to bed.\n
+        Shortly thereafter,\n
+        Bernardo is joined by Marcellus, \n
+        another watchman, and Horatio, a friend of Prince Hamlet.\n
+        Bernardo and Marcellus have urged Horatio to stand watch with them,\n
+        because they believe they have something shocking to show him. \n
+        In hushed tones, \n
+        they discuss the apparition they have seen for the past two nights, \n
+        and which they now hope to show Horatio: \n
+        the ghost of the recently deceased King Hamlet,\n
+        which they claim has appeared before them on the castle ramparts \n
+        in the late hours of the night.\n
+        Horatio is skeptical,\n
+        but then the ghost suddenly appears \n
+        before the men and just as suddenly vanishes. \n
+        Terrified, Horatio acknowledges \n
+        that the specter does indeed resemble the dead King of Denmark, \n
+        that it even wears the armor King Hamlet wore \n
+        when he battled against the armies of Norway, \n
+        and the same frown he wore when he fought against the Poles.\n
+        Horatio declares that the ghost must bring warning of impending misfortune for Denmark,\n
+        perhaps in the form of a military attack.\n
+        He recounts the story of King Hamlet’s conquest \n
+        of certain lands once belonging to Norway, \n
+        saying that Fortinbras, \n
+        the young Prince of Norway,\n
+        now seeks to reconquer those forfeited lands.\n
+        The ghost materializes for a second time,\n
+        and Horatio tries to speak to it. \n
+        The ghost remains silent, however, \n
+        and disappears again just as the cock crows at the first hint of dawn.\n
+        Horatio suggests that they tell Prince Hamlet, \n
+        the dead king’s son, about the apparition. \n
+        He believes that though the ghost did not speak to him,\n
+        if it is really the ghost of King Hamlet, \n
+        it will not refuse to speak to his beloved son.\n</string>
+
+
+    <!-- Notification channel -->
+    <string name="text_content_text">The app is running~ 🙌</string>
+
+    <!-- Notification layout of Micro Survey -->
+    <string name="text_view_micro_question">Are you alone? 😂</string>
+    <string name="text_view_micro_ans_positive">yes</string>
+    <string name="text_view_micro_ans_negative">no</string>
+</resources>

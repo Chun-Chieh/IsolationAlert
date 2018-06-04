@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_design_padding">8dp</dimen>
+    <dimen name="material_design_margin">16dp</dimen>
+
+    <!-- Space between items of gridlayout manager -->
+    <dimen name="item_offset">10dp</dimen>
+
+    <!-- Specifications of the item cards -->
+    <dimen name="item_card_corner_radius">8dp</dimen>
+    <dimen name="item_title_text_size">18sp</dimen>
+    <dimen name="item_quantity_text_size">28sp</dimen>
+    <dimen name="item_unit_text_size">14sp</dimen>
+    <dimen name="item_image_margin">45dp</dimen>
+
+    <!-- conversation recognition activity -->
+    <dimen name="line_space_explanation">6sp</dimen>
+</resources>

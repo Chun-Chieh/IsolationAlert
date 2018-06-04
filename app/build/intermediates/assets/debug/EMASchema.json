@@ -1,0 +1,158 @@
+[
+  {
+    "id": "001",
+    "text": "How happy are you right now?",
+    "options": [
+      "Very unhappy",
+      "Moderately unhappy",
+      "Slightly unhappy",
+      "Neither happy nor unhappy",
+      "Slightly happy",
+      "Moderately happy",
+      "Very happy"
+    ],
+    "answer": {
+      "Very unhappy": [],
+      "Moderately unhappy": [],
+      "Slightly unhappy": [],
+      "Neither happy nor unhappy": [],
+      "Slightly happy": [],
+      "Moderately happy": [],
+      "Very happy": []
+    }
+  },
+  {
+    "id": "002",
+    "text": "How much would you like to interact with someone in the next few hours?",
+    "options": [
+      "Not at all",
+      "Slightly",
+      "Moderately",
+      "Extremely"
+    ],
+    "answer": {
+      "Very unhappy": [],
+      "Moderately unhappy": [],
+      "Slightly unhappy": [],
+      "Neither happy nor unhappy": [],
+      "Slightly happy": [],
+      "Moderately happy": [],
+      "Very happy": []
+    }
+  },
+  {
+    "id": "003",
+    "text": "Where are you right now?",
+    "options": [
+      "At home",
+      "At work/school",
+      "At someone else’s house",
+      "Public place (indoors)",
+      "Public place (outdoors)"
+    ],
+    "answer": {
+      "At home": [],
+      "At work/school": [],
+      "At someone else’s house": [],
+      "Public place (indoors)": [],
+      "Public place (outdoors)": []
+    }
+  },
+  {
+    "id": "004",
+    "text": "Are you alone or around others?",
+    "options": [
+      "Alone",
+      "Around others(Not interacting)",
+      "Around others(interacting)"
+    ],
+    "answer": {
+      "Alone": [
+        {
+          "id": "0411",
+          "text": "Do you prefer being alone right now?",
+          "options": [
+            "Not at all",
+            "Slightly",
+            "Moderately",
+            "Extremely"
+          ],
+          "answer": {
+            "Not at all": [],
+            "Slightly": [],
+            "Moderately": [],
+            "Extremely": []
+          }
+        },
+        {
+          "id": "0412",
+          "text": "how do you feel?",
+          "options": [
+            "Not at all",
+            "Slightly",
+            "Moderately",
+            "Extremely"
+          ],
+          "answer": {
+            "Not at all": [],
+            "Slightly": [],
+            "Moderately": [],
+            "Extremely": []
+          }
+        }
+      ],
+      "Around others(Not interacting)": [
+        {
+          "id": "0421",
+          "text": "Do you prefer around others right now?",
+          "options": [
+            "Not at all",
+            "Slightly",
+            "Moderately",
+            "Extremely"
+          ],
+          "answer": {
+            "Not at all": [],
+            "Slightly": [],
+            "Moderately": [],
+            "Extremely": []
+          }
+        },
+        {
+          "id": "0422",
+          "text": "how do you feel?",
+          "options": [
+            "Not at all",
+            "Slightly",
+            "Moderately",
+            "Extremely"
+          ],
+          "answer": {
+            "Not at all": [],
+            "Slightly": [],
+            "Moderately": [],
+            "Extremely": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "005",
+    "text": "What's your problem?",
+    "options": [
+      "At home",
+      "At work/school",
+      "At someone else’s house",
+      "Public place (indoors)",
+      "Public place (outdoors)"
+    ],
+    "answer": {
+      "At home": [],
+      "At work/school": [],
+      "At someone else’s house": [],
+      "Public place (indoors)": [],
+      "Public place (outdoors)": []
+    }
+  }
+]

@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_fragment_training"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint_fragment_training"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?colorAccent"
+        android:fitsSystemWindows="true"
+        android:statusBarColor="@android:color/transparent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_training"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:clipToPadding="false"
+            android:fadingEdgeLength="200dp"
+            android:requiresFadingEdge="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_training_done"-->
+            <!--style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="75dp"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:text="@string/button_text_done"-->
+            <!--android:visibility="gone"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent" />-->
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

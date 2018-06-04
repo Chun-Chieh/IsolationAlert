@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.maple.dashboardtest">
+
+    <!-- permissions for device usage -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- permissions for social apps -->
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+    <!-- permissions for locations -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- permission for training session -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.WelcomeActivity"
+            android:theme="@style/AppTheme.TransparentTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- dashboard -->
+        <activity android:name=".ui.activity.MainActivity" />
+
+        <!-- Statistics -->
+        <activity
+            android:name=".ui.activity.StatisticsActivity"
+            android:label="@string/text_title_statistics" />
+
+        <!-- Survey -->
+        <activity android:name=".ui.activity.survey.SurveyMainActivity" />
+        <activity
+            android:name=".ui.activity.survey.SurveyQuestionActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Conversation recognition training -->
+        <activity
+            android:name=".ui.activity.TrainingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- debug -->
+        <activity android:name=".debug.DebugSurveyActivity"
+            android:theme="@style/AppTheme.ActionBarTheme"/>
+
+        <!-- Micro EMA Notification -->
+        <service android:name=".service.NotificationForegroundService" />
+
+        <receiver android:name=".broadcastreceiver.NotificationButtonListener" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Google map -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCNQu1e3dcdgV5JYlc_g_EXDuNDxh6nsas" />
+
+
+    </application>
+
+</manifest>

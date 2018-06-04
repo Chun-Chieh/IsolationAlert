@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_view_training"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:gravity="center"
+    android:lines="1"
+    android:padding="@dimen/material_design_padding"
+    android:textColor="@color/colorPrimary"
+    android:textSize="26sp"
+    tools:text="TEST"
+    tools:textColor="@color/colorPrimary" />

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/nav_operation"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_menu_drawer_statistics"
+            android:title="@string/navigation_drawer_statistics" />
+
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/ic_menu_drawer_survey"
+            android:title="@string/navigation_drawer_survey" />
+
+        <item
+            android:id="@+id/nav_recording_training"
+            android:icon="@drawable/ic_menu_drawer_training"
+            android:title="@string/navigation_drawer_recording_training" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_drawer_about"
+            android:title="@string/navigation_drawer_about" />
+
+    </group>
+
+    <item android:title="Debug">
+        <menu>
+            <item
+                android:id="@+id/nav_stop_service"
+                android:title="Stop Service" />
+            <item
+                android:id="@+id/nav_recording_testing"
+                android:title="@string/navigation_drawer_recording_testing" />
+
+            <item
+                android:id="@+id/nav_notification"
+                android:title="@string/navigation_drawer_notification" />
+
+            <item
+                android:id="@+id/nav_db_survey"
+                android:title="@string/navigation_drawer_db_survey" />
+        </menu>
+    </item>
+</menu>
