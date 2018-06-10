@@ -1,38 +1,13 @@
-#new UI
----------------------------------------
-### 1. Conversation Recognition (Recording & Recognition)
----------------------------------------
-#####   UI - COMPLETED
- -  recyclerView with auto-scrolling
- -  Training progress (Handler)
-#####   Training session
- -  Send message with training progress
-#####   Testing session
- -  Service implementation
+# Isolation Alert
 
-### 2. Normal Survey - COMPLETED
----------------------------------------
-#####   Survey UI - COMPLETED
- -  Multiple pages that shows questions.
-#####   Recursive Parser - COMPLETED
- -  Sub-questions are loaded depends on the user's choice.
-
-### 3. Micro EMA (Notification)
----------------------------------------
-#####   Notification UI - COMPLETED
- -  Custom notification with options.
- -  Dismiss the notification in 10 minutes.
-#####   ~~Sub-question~~
- -  1 sub-question is followed by the yes-no question.
-#####   Sensor-trigger - Need clarification
- -  The micro EMA is triggered by the current location or the detection of conversation.
+An Android app to identify social isolation based on user’s social activities.
 
 
-### ~~4. Database (Room) - LOW PRIORITY~~
----------------------------------------
+Contributed to [Sargent College][1] & [Metropolitan College][2] at Boston University.
+[1]:https://www.bu.edu/sargent/ "Sargent College"
+[2]:http://www.bu.edu/met/ "Metropolitan College"
 
-### 5. Dashboard  - COMPLETED
----------------------------------------
+
 
 
 
