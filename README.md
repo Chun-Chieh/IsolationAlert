@@ -45,7 +45,11 @@ Features
 
 Screenshots
 --------
-[![mutt light](https://github.com/altercation/solarized/raw/master/img/screen-mutt-light-th.png)](https://github.com/altercation/solarized/raw/master/img/screen-mutt-light.png)
+Dashboard
+![Dashboard](https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_1.gif)
+
+EMA & Conversation Recognition
+![EMA & CR](https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_2.gif)
 
 
 Platform
