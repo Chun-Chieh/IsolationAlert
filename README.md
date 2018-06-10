@@ -46,11 +46,15 @@ Features
 Screenshots
 --------
 Dashboard
+
+</br>
 <div align=center>
 <img src="https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_1.gif" width="40%" height="40%">
 </div>
 
 EMA & Conversation Recognition
+
+</br>
 <div align=center>
 <img src="https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_2.gif" width="40%" height="40%">
 </div>
