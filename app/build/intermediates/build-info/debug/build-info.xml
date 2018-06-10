@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.1.2"
-    timestamp="1528146630897"
+    timestamp="1528661105167"
     token="357096480680597759"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1528146630897"
+        timestamp="1528661105167"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/maple/AndroidStudioProjects/Project_Isolation/NewUI/NewIsolationAlert/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
