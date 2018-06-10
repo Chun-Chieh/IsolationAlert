@@ -51,6 +51,7 @@ Dashboard
 <div align=center>
 <img src="https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_1.gif" width="40%" height="40%">
 </div>
+</br>
 
 EMA & Conversation Recognition
 
@@ -58,6 +59,7 @@ EMA & Conversation Recognition
 <div align=center>
 <img src="https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_2.gif" width="40%" height="40%">
 </div>
+</br>
 
 Platform
 --------
