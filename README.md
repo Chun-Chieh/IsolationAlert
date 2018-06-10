@@ -46,10 +46,10 @@ Features
 Screenshots
 --------
 Dashboard
-![Dashboard](https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_1.gif)
+![Dashboard](https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_1.gif | width=100)
 
 EMA & Conversation Recognition
-![EMA & CR](https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_2.gif)
+![EMA & CR](https://github.com/Chun-Chieh/IsolationAlert/blob/master/demo/demo_2.gif | width=100)
 
 
 Platform
