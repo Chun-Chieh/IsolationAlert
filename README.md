@@ -1,4 +1,3 @@
----
 # Isolation Alert
 
 Isolation is an Android app to identify **[social isolation][Social Isolation]** based on the user’s social activities on a 
@@ -8,8 +7,6 @@ Adviser: [Dr. Yuting Zhang][Dr. Yuting Zhang] and [Dr. Dan Fulford][Dr Dan Fulfo
  
 Contributed to [Metropolitan College][Metropolitan College] and [Sargent College][Sargent College] 
 at Boston University.
-
----
 
 Features
 --------
