@@ -45,7 +45,7 @@ Features
 
 Screenshots
 --------
-
+[![mutt light](https://github.com/altercation/solarized/raw/master/img/screen-mutt-light-th.png)](https://github.com/altercation/solarized/raw/master/img/screen-mutt-light.png)
 
 
 Platform
